@@ -1,0 +1,641 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oswald:wght@600;700&family=Roboto:ital,wght@0,700;0,900;1,400&display=swap');
+*{
+    margin: 10;
+    padding: 10;
+}
+body{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(171,206,247,1) 100%);
+background-size: 100%;
+
+
+}
+/* Menu*/
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0,2s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    background-color: #132958;
+    height: 10vh;
+    width: auto;
+}
+.previa img{
+    width: 800px;
+}
+.nav-list{
+    padding-left: 30px;
+    list-style: none;
+    display: flex;
+    width: auto;
+}
+.nav-list li{
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.nav-mobile{
+    display: none;
+}
+/* Slide Tela Completa */
+
+.projetos{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+
+button.slick-prev{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    background-image: url('Imagens/seta.png');
+    top: 50%;
+    left: 30px;
+}
+button.slick-next{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    background-image: url('Imagens/seta\ next.png');
+    top: 50%;
+    right: 30px;
+}
+
+/* Serviços */
+
+.servicos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.serviços-text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+.serv-logo{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-cart{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-midias{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-logo img{
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-cart img{
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-midias img{
+    border-radius: 10%;
+    width: 200px;
+}
+
+/* BIO */
+
+.somos-text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+.bio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.text-bio{
+    padding-left: 50px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.text-bio h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+}
+.text-bio p{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #132958;
+}
+.imagem-bio img{
+    border-radius: 50%;
+    width: 300px;
+}
+/* CONTATO*/
+.fundo{
+    position: absolute;
+    width: auto;
+}
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 400px;
+}     
+.text-call h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+
+@media (max-width: 760px) {
+    /* menu resposivo */
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0,2s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    background-color: #132958;
+    height: 10vh;
+    width: 100%;
+}
+.logo img{
+ width: 50px;
+}
+nav img{
+    padding-right: 10px;
+    width: 25px;
+}
+.nav-mobile{
+    padding-right: 20px;
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    width: auto;
+}
+.nav-mobile li{
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.nav-list{
+    display: none;
+}
+/* Slide Tela Completa */
+.projetos{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+
+button.slick-prev{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    background-image: url('Imagens/seta.png');
+    top: 40%;
+    left: 30px;
+}
+button.slick-next{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    background-image: url('Imagens/seta\ next.png');
+    top: 40%;
+    right: 30px;
+}
+
+/* Serviços */
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.serviços-text{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+.serv-logo{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-cart{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-midias{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-logo img{
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-cart img{
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-midias img{
+    border-radius: 10%;
+    width: 200px;
+}
+
+/* BIO */
+
+.somos-text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.text-bio{
+    padding-left: 0px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.text-bio h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+}
+.text-bio p{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #132958;
+}
+.imagem-bio img{
+    border-radius: 50%;
+    width: 200px;
+}
+/* CONTATO*/
+.fundo{
+    position: absolute;
+    width: auto;
+}
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 400px;
+}     
+.text-call h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+  @media (max-width: 600px) {
+    button.slick-prev{
+        display: none;
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position:absolute;
+        background-image: url('Imagens/seta.png');
+        top: 35%;
+        left: 10px;
+    }
+    button.slick-next{
+        display: inline-block;
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position:absolute;
+        background-image: url('Imagens/seta\ next.png');
+        top: 35%;
+        right: 10px;
+    }
+    @media (max-width: 500px) {
+        button.slick-prev{
+            display: none;
+            font-size: 0px;
+            border: none;
+            width: 25px;
+            height: 51px;
+            z-index: 9;
+            background-color: transparent;
+            position:absolute;
+            background-image: url('Imagens/seta.png');
+            top: 30%;
+            left: 10px;
+        }
+        button.slick-next{
+            display: none;
+            font-size: 0px;
+            border: none;
+            width: 25px;
+            height: 51px;
+            z-index: 9;
+            background-color: transparent;
+            position:absolute;
+            background-image: url('Imagens/seta\ next.png');
+            top: 30%;
+            right: 10px;
+        }
+  @media (max-width: 400px) {
+    /* menu resposivo */
+/* Menu*/
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0,2s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    background-color: #132958;
+    height: 10vh;
+    width: 100%;
+}
+.logo img{
+ width: 40px;
+}
+nav img{
+    padding-right: 10px;
+    width: 22px;
+}
+.nav-mobile{
+    
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    width: auto;
+}
+.nav-mobile li{
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.nav-list{
+    display: none;
+}
+/* Slide Tela Completa */
+.projetos{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+
+button.slick-prev{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    background-image: url('Imagens/seta.png');
+    top: 25%;
+    left: 10px;
+}
+button.slick-next{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    background-image: url('Imagens/seta\ next.png');
+    top: 25%;
+    right: 10px;
+}
+
+/* Serviços */
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.serviços-text{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+.serv-logo{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-cart{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-midias{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-logo img{
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-cart img{
+    border-radius: 10%;
+    width: 200px;
+}
+.serv-midias img{
+    border-radius: 10%;
+    width: 200px;
+}
+
+/* BIO */
+
+.somos-text{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+    text-align: center;
+    width: auto;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.text-bio{
+    padding-left: 0px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.text-bio h2{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+}
+.text-bio p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #132958;
+}
+.imagem-bio img{
+    border-radius: 50%;
+    width: 200px;
+}
+/* CONTATO*/
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 300px;
+}     
+.text-call h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132958;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    
+}
+  }
