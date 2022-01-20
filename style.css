@@ -200,8 +200,10 @@ button.slick-next{
     justify-content: space-around;
     width: 200px;
     
+
 }
 footer{
+    
     display: flex;
     width: auto;
     height: 85px;
@@ -636,7 +638,7 @@ button.slick-next{
 }     
 .text-call h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     color: #132958;
 }
@@ -647,7 +649,21 @@ button.slick-next{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100px;
-    
+    width: 50px;
+    padding-bottom: 80px;
 }
-  }
+footer{
+    
+    display: flex;
+    width: auto;
+    height: 90px;
+    background-color: #132958;
+}
+.rodape{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
